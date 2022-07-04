@@ -3,10 +3,9 @@ import AddRound from './components/AddRound';
 import Scores from './components/Scores';
 import AveragePutt from './components/AveragePutt';
 import AverageGreen from './components/AverageGreen';
-import Header from './components/Header'
+import Header from './components/Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, {useEffect, useCallback, useState} from 'react';
-
 
 function App() {
 
