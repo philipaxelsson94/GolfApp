@@ -3,7 +3,7 @@ import AddRound from './components/AddRound';
 import Scores from './components/Scores';
 import AveragePutt from './components/AveragePutt';
 import AverageGreen from './components/AverageGreen';
-import Header from './components/Header';
+import TopHeader from './components/TopHeader';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, {useEffect, useCallback, useState} from 'react';
 
@@ -49,7 +49,7 @@ function App() {
 
   return (
       <React.Fragment>
-          <Header/>
+          <TopHeader/>
           <div className='container'>
               <div className='container' id="middleContainer">
                 <AddRound onAdd={addScore} />
