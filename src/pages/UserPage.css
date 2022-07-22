@@ -1,0 +1,21 @@
+.App {
+    text-align: center;
+}
+
+#middleContainer{
+    margin-top:20px;
+    padding:10px;
+    background-color:#164865;
+}
+#averageContainer{
+    flex-direction: row;
+    justify-content: space-evenly;
+    display: flex;
+    margin-top:30px;
+}
+
+#scoreListContainer{
+    margin-top:30px;
+    background-color:#164865;
+    padding:20px;
+}
