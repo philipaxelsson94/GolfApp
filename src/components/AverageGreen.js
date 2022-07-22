@@ -1,5 +1,6 @@
 import './AverageGreen.css';
-import {FaTimes} from 'react-icons/fa'
+
+
 const AverageGreen = ({avGreens}) => {
     return(
         <div id="averageGreenbox" className="ui statistic">
